@@ -1,2 +1,23 @@
 .container {
+	background: var(--color-background-light);
+  width: 234px;
+  
+  ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+}
+
+.element_wrapper {
+	display: flex;
+  align-items: center;
+  gap: 14px;
+  height: 32px;
+}
+
+.element {
+	list-style: none;
+	font-weight: 400;
+	font-size: 14px;
+  color: var(--color-text-light);
 }
