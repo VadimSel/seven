@@ -1,7 +1,11 @@
-import './App.style.scss'
+import "./App.style.scss";
+import Layout from "./components/Layout/Layout";
+import Table from "./components/Table/Table";
 
-export function App () {
-    return (
-        <div>Test</div>
-    )
+export function App() {
+	return (
+		<Layout>
+			<Table />
+		</Layout>
+	);
 }

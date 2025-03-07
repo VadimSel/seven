@@ -1,7 +1,16 @@
+:root {
+    --color-background-light: #27272A;
+    --color-background-dark: #202124;
+    --color-text-light: #FFFFFF;
+    --color-text-dark: #A1A1AA;
+    --color-border: #414144;
+}
+
 body {
     margin: 0;
     height: 100vh;
     width: 100vw;
+    font-family: "Roboto", sans-serif;
 
     > #root {
         display: flex;
@@ -11,3 +20,4 @@ body {
         width: inherit;
     }
 }
+

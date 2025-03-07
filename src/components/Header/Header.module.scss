@@ -1,0 +1,31 @@
+.container {
+	border-bottom: 2px solid var(--color-border);
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	gap: 28px;
+  background: var(--color-background-light);
+}
+
+.icons_wrapper {
+	display: flex;
+	gap: 20px;
+}
+
+.buttons_wrapper {
+	display: flex;
+	align-items: center;
+	gap: 28px;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.view {
+	border-bottom: 2px solid var(--color-text-light);
+  color: var(--color-text-light);
+	padding: 15px 0 14px 0;
+}
+
+.control {
+  color: var(--color-text-dark);
+}
