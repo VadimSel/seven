@@ -24,7 +24,7 @@ const Sidebar = () => {
 			<ul>
 				{data.map((el, i) => {
 					return (
-						<div className={styles.element_wrapper}>
+						<div key={i} className={styles.element_wrapper}>
 							<img src="/assets/icons/project-icon.svg" alt="" />
 							<li className={styles.element}>{el}</li>
 						</div>

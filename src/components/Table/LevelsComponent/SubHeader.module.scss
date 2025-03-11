@@ -1,14 +1,13 @@
 .container {
 	display: flex;
 	background: var(--color-background-light);
-	border-bottom: 1px solid var(--color-border);
 }
 
 .project_info {
 	display: flex;
-	width: 206px;
-	justify-content: space-between;
-	border-right: 1px solid var(--color-border);
+	gap: 62px;
+	border-right: 2px solid var(--color-border);
+	border-bottom: 2px solid var(--color-border);
 	padding: 8px 7px 8px 20px;
 
 	img {
@@ -38,7 +37,8 @@
 	font-size: 18px;
   padding: 0 15px 0 15px;
   text-align: center;
-  border-right: 1px solid var(--color-border);
+  border-bottom: 2px solid var(--color-border);
+  border-right: 2px solid var(--color-border);
   color: var(--color-text-light);
   display: flex;
   align-items: center;

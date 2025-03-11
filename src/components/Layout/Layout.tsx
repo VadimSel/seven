@@ -12,7 +12,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
       <SubHeader/>
 			<div className={styles.sidebar_and_content_wrapper}>
 				<Sidebar />
-				<main>{children}</main>
+				<main className={styles.main}>{children}</main>
 			</div>
 		</div>
 	);
